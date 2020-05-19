@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+    <head> <!-- In the head you should have CSS, links to JS, meta data, key tags, etc. -->
+        <title>First video</title>
+    </head>
+    <body>
+        <a href="Blog.html">Go to Blog</a>       
+        <hr>
+
+        <h1>Heading One</h1>
+        <h2>Heading Two</h2>
+        <h3>Heading Three</h3>
+        <h4>Heading Four</h4>
+        <h5>Heading Five</h5>
+        <h6>Heading Six</h6>
+               
+        <p>
+            Lorem ipsum dolor sit amet <strong>consectetur adipisicing</strong> elit. Obcaecati, eos? <!-- Lorem + TAB generates a random text just for testing. Can be Loren10, Loren20...-->
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet <em>consectetur adipisicing</em> elit. <a href="http://google.com" target="_blank"> Obcaecati</a>, eos? <!-- Lorem + TAB generates a random text just for testing. Can be Loren10, Loren20...-->
+        </p>
+
+        <!-- Unordered list-->
+        <ul>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+        </ul>
+
+        <!-- Ordered list-->
+        <ol>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+        </ol>
+
+        <table>
+            <thead>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+            </thead>
+            <thead>
+                <tbody>
+                    <tr>
+                        <td>Paulo Tavares</td>
+                        <td>Ph.and@hotmail.com</td>
+                        <th>21</th>
+                    </tr>
+                    <tr>
+                        <td>Eron Cardoso</td>
+                        <td>Bãri@gmail.com</td>
+                        <th>31</th>
+                    </tr>
+                    <tr>
+                        <td>Igor Oliveira</td>
+                        <td>Iguinha@gmail.com</td>
+                        <th>28</th>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+
+        <br>
+        <hr>
+        <br>
+
+        <!-- Forms -->
+        <form action="process.php" method="POST">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstName">
+            </div>
+            <br>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastName">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email">
+            </div>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea name="email"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Gender</label>
+                <select name ="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Age</label>
+                <input type="number" name = "age" value="30">
+            </div>
+            <br>
+            <div>
+                <label>Birthday</label>
+                <input type="date" name = "birthday">
+            </div>
+                <input type="submit" name="submit" value="submit">
+        </form> 
+
+        <!-- Button -->
+        <button>Click Me</button>
+
+        <br>
+
+        <!-- Image -->
+        <a href ="img/Sample image.jpeg">
+            <img src="img/Sample image.jpeg" alt="My Sample Image" width ="200">
+        </a>   
+
+        <!-- Quotations -->
+        <blockquote cite = "http://traversymedia.com">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, nihil?
+        </blockquote>
+
+        <p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+
+        <p><cite>HTML crash course</cite> by Brad Traversy</p>
+        
+    </body>
+</html>
